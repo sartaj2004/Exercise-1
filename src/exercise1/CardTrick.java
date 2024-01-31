@@ -55,5 +55,6 @@ public class CardTrick {
     private static void printInfo() {
         
        System.out.println("Congratulations! You found a match!");
+        System.out.println("My hobby is playing cricket!");
     }
 }
