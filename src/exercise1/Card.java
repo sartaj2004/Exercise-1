@@ -14,6 +14,10 @@ public class Card {
 
    private String suit; //clubs, spades, diamonds, hearts
    private int value;//1-13
+  Card(String suit,int value){
+       suit=this.suit;
+       value=this.value;
+   }
 
    public static final String [] SUITS = {"Hearts", "Diamonds", "Spades", "Clubs"};
     /**
